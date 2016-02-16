@@ -1,7 +1,9 @@
-puts " cuantos numeros desea capturar para sacar el promedio?"
 bandera=0
 i=1
 sumatoria=0
+
+puts " cuantos numeros desea capturar para sacar el promedio?"
+
 n = gets.chomp.to_i
 
 

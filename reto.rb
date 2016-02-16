@@ -1,6 +1,6 @@
 
 
-for i in 1 .. 66928
+for i in 1 .. 500000
 	suma1=0
 	suma2=0
 
@@ -12,7 +12,6 @@ for i in 1 .. 66928
 	end
 	for y in 1 .. (suma1/2)
 		if suma1 % y == 0
-			
 		suma2+=y
 		end
 	end
